@@ -298,6 +298,7 @@ def contact():
 #         connection.login(MAIL_ADDRESS, MAIL_APP_PW)
 #         connection.sendmail(MAIL_ADDRESS, MAIL_APP_PW, email_message)
 
+# Added a dummy line
 
 if __name__ == "__main__":
     app.run(debug=False, port=5001)
